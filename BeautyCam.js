@@ -3,7 +3,7 @@ unlock vip by 蔠點丶
 
 [rewrite_local]
 # 轻颜相机
-^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-response-body panxsn/QxJs/BeautyCam.js
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-response-body panxsn/BeautyCam.js
 
 [mitm]
 commerce-api.faceu.mobi

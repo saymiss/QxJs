@@ -3,7 +3,7 @@ unlock vip by 蔠點丶
 
 [rewrite_local]
 # 洪恩(双语绘本、数学、儿童英语)
-^https:\/\/.*\.ihuman\.com\/.*\/(get_user_info|get_purchase_list|get_products|data_crud) url script-response-body panxsn/QxJs/iHumanBook.js
+^https:\/\/.*\.ihuman\.com\/.*\/(get_user_info|get_purchase_list|get_products|data_crud) url script-response-body panxsn/iHumanBook.js
 
 [mitm]
 *.ihuman.com

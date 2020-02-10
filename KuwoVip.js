@@ -3,7 +3,7 @@ by 蔠點丶
 
 [rewrite_local]
 # 酷我音乐解锁VIP和主题
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice|vip\/v2\/theme) url script-response-body panxsn/QxJs/KuwoVip.js
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice|vip\/v2\/theme) url script-response-body panxsn/KuwoVip.js
 
 # 酷我VIP音乐下载
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1

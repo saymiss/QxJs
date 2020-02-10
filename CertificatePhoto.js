@@ -4,7 +4,7 @@ unlock vip by 蔠點丶
 
 [rewrite_local]
 # 智能证件照相机
-^http:\/\/certificate\.yiyongcad\.com\/api\/v4\/(virtualactregister|memprofile) url script-response-body panxsn/QxJs/CertificatePhoto.js
+^http:\/\/certificate\.yiyongcad\.com\/api\/v4\/(virtualactregister|memprofile) url script-response-body panxsn/CertificatePhoto.js
 
 MITM = certificate.yiyongcad.com
 */

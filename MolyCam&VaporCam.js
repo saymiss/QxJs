@@ -3,7 +3,7 @@ by 蔠點丶
 
 [rewrite_local]
 # MolyCam
-^https:\/\/pay\.wecut\.com\/apple\/iosVerifyReceipt\.php url script-response-body panxsn/QxJs/MolyCam&VaporCam.js
+^https:\/\/pay\.wecut\.com\/apple\/iosVerifyReceipt\.php url script-response-body panxsn/MolyCam&VaporCam.js
 
 [mitm]  
 pay.wecut.com

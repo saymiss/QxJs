@@ -3,7 +3,7 @@ by 蔠點丶
 
 [rewrite_local]
 # NOMO v1.5.28 by 蔠點丶
-^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list url script-response-body panxsn/QxJs/NOMO.js
+^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list url script-response-body panxsn/NOMO.js
 
 [mitm]  
 nomo.dafork.com

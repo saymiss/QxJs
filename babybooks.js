@@ -6,7 +6,7 @@ unlock vip by 蔠點丶
 
 [rewrite_local]
 # 儿童睡前故事
-^https:\/\/www\.babybooks\.top\/v0\/(series|profile) url script-response-body panxsn/QxJs/babybooks.js
+^https:\/\/www\.babybooks\.top\/v0\/(series|profile) url script-response-body panxsn/babybooks.js
 
 [mitm]
 www.babybooks.top

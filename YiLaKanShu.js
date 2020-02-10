@@ -3,7 +3,7 @@ by 蔠點丶
 
 [rewrite_local]
 # 咿啦看书
-^https:\/\/api\.ellabook\.cn\/rest\/api\/service url script-response-body panxsn/QxJs/YiLaKanShu.js
+^https:\/\/api\.ellabook\.cn\/rest\/api\/service url script-response-body panxsn/YiLaKanShu.js
 
 [mitm]  
 api.ellabook.cn

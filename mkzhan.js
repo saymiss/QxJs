@@ -3,7 +3,7 @@ unlock vip by 蔠點丶
 
 [rewrite_local]
 # 漫客栈-需旧版v2.4.6 (by 蔠點丶)
-^https:\/\/member\.mkzcdn\.com\/user\/funds\/info url script-response-body panxsn/QxJs/mkzhan.js
+^https:\/\/member\.mkzcdn\.com\/user\/funds\/info url script-response-body panxsn/mkzhan.js
 
 [mitm]
 member.mkzcdn.com
