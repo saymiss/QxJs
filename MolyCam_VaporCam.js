@@ -2,8 +2,8 @@
 by 蔠點丶 
 
 [rewrite_local]
-# MolyCam
-^https:\/\/pay\.wecut\.com\/apple\/iosVerifyReceipt\.php url script-response-body panxsn/MolyCam_VaporCam.js
+# MolyCam_VaporCam（两个APP）
+^https:\/\/pay\.wecut\.com\/apple\/(iosVerifyReceipt|iosAppVerifyReceipt)\.php url script-response-body panxsn/MolyCam_VaporCam.js
 
 [mitm]  
 pay.wecut.com
@@ -20,5 +20,4 @@ obj=
  "code": 0
 };
 $done({body: JSON.stringify(obj)});
-
 
