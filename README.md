@@ -4,6 +4,7 @@
 目前使用QuantumultX-1.05版本，
 
 操作方法：
+
 1⃣️在本地建立文件夹
 目录 iCloud Drive/QuantumultX/Script/panxsn
 或者 我的iPhone/QuantumultX/Script/panxsn
