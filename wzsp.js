@@ -1,0 +1,21 @@
+/*
+by 蔠點丶 
+
+[rewrite_local]
+# 文字视频
+^https:\/\/a\.aipike\.net\/api\/v1\/oauth\/WECHAT url script-response-body panxsn/wzsp.js
+
+[mitm]  
+a.aipike.net
+
+*/
+var body = $response.body;
+var url = $request.url;
+var obj = JSON.parse(body);
+
+obj.data.folk.serviceEnd = 2088011011;
+obj.data.folk.status = "NORMAL";
+
+body = JSON.stringify(obj);
+
+$done({body});
