@@ -1,5 +1,5 @@
 /*
-by 蔠點丶
+unlock In-app purchase by panxsn
 
 # 卖力批图 (拷贝此段到本地，用完后禁用)
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body panxsn/Manly.js
