@@ -1,5 +1,5 @@
 /*
-unlock vip by 蔠點丶
+unlock vip by panxsn
 
 链接：http://mrw.so/4sSX6U
 版本：Appstore v1.2.1
