@@ -21,4 +21,4 @@ https://github.com/panxsn/QxJs.git
 3⃣️订阅我的[rewrite_remote]：
 
 [rewrite_remote]
-https://raw.githubusercontent.com/panxsn/QxJs/master/Js_local_WorkingCopy.conf, tag=panxsn(蔠點丶), enabled=true
+https://raw.githubusercontent.com/panxsn/QxJs/master/Js_local_WorkingCopy.conf, tag=panxsn, enabled=true
