@@ -1,5 +1,5 @@
 /*
-unlock vip by 蔠點丶
+unlock vip by panxsn
 下载地址：http://mrw.so/4YgQbP
 
 [rewrite_local]
