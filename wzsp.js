@@ -1,5 +1,6 @@
 /*
-by 蔠點丶 
+unlock vip by panxsn
+
 链接：http://t.cn/AiN0mk0G
 
 [rewrite_local]
