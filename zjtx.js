@@ -1,9 +1,9 @@
 /*
-by 蔠點丶 
+unlock vip by panxsn
 
 [rewrite_local]
 # 指尖特效
-^https:\/\/www\.jidiandian\.cn\/finevideo-account\/api\/user\/detail url script-response-body panxsn/ZJTX.js
+^https:\/\/www\.jidiandian\.cn\/finevideo-account\/api\/user\/detail url script-response-body panxsn/zjtx.js
 
 [mitm]  
 www.jidiandian.cn
