@@ -1,5 +1,5 @@
 /*
-by 蔠點丶
+unlock vip by panxsn
 
 [rewrite_local]
 # 酷我音乐解锁VIP和主题
