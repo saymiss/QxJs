@@ -1,5 +1,5 @@
 /*
-unlock vip by 蔠點丶
+unlock vip by panxsn
 
 [rewrite_local]
 # 轻颜相机
