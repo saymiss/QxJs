@@ -1,8 +1,8 @@
 /*
-unlock vip by 蔠點丶 
+unlock vip by panxsn
 
 [rewrite_local]
-# 漫客栈-需旧版v2.4.6 (by 蔠點丶)
+# 漫客栈-旧版v2.4.6可用
 ^https:\/\/member\.mkzcdn\.com\/user\/funds\/info url script-response-body panxsn/mkzhan.js
 
 [mitm]
