@@ -1,8 +1,8 @@
 /*
-by 蔠點丶 
+by panxsn
 
 [rewrite_local]
-# MolyCam_VaporCam（两个APP）
+# MolyCam and VaporCam（两个APP）
 ^https:\/\/pay\.wecut\.com\/apple\/(iosVerifyReceipt|iosAppVerifyReceipt)\.php url script-response-body panxsn/MolyCam_VaporCam.js
 
 [mitm]  
