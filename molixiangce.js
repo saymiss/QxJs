@@ -9,6 +9,9 @@ unlock vip by panxsn
 n.molixiangce.com
 */
 
-body = $response.body.replace(/levelName":".*?"/g, "levelName\":\"钻石会员\"").replace(/levelType":\d/g, "levelType\":2");
+var obj = JSON.parse($response.body);
 
-$done({body});
+obj.data.levelName = "钻石会员";
+obj.data.levelType = 2;
+
+$done({body: JSON.stringify(obj)});
