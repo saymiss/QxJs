@@ -1,5 +1,5 @@
-# Quantumult X Js脚本
-自用圈X规则，不负责维护脚本
+# Quantumult X 规则
+自用圈X（Quantumult X）规则，不负责维护脚本
 
 目前使用QuantumultX-1.05版本，
 
