@@ -1,7 +1,7 @@
 # Quantumult X 规则
 自用圈X（Quantumult X）规则，不负责维护脚本
+声明：所有规则仅供学习交流之用，切勿商用及非法用途，否则造成的一切后果与本人无关！
 
-目前使用QuantumultX-1.05版本，
 
 操作方法：
 
@@ -15,8 +15,7 @@ iCloud Drive/QuantumultX/Script/panxsn
 2⃣️用working copy挂载我的库：
 
 https://github.com/panxsn/QxJs.git
-将脚本同步到本地
-(挂载教程: https://www.notion.so/iCloud-Github-948f19e65e1a47b3b468451491a3f34b)
+
 
 3⃣️订阅我的[rewrite_remote]：
 
