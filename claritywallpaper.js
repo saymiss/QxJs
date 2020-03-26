@@ -2,7 +2,7 @@
 unlock pro by panxsn
 
 [rewrite_local]
-# 克拉壁纸Pro v4.7（旧版）
+# 克拉壁纸Pro v4.7.4（旧版）
 ^https:\/\/claritywallpaper\.com\/clarity\/api\/special url script-response-body panxsn/claritywallpaper.js
 
 [mitm]
