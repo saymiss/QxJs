@@ -21,7 +21,7 @@ body = $response.body.replace(/"vip":\{[^}]+\}/g, "\"vip\":\{\"expire_time\":987
 
 // 星星无限，可随意换装扮
 if (url.indexOf("engapi") != -1){
-body = $response.body.replace(/"vip":\{[^}]+\}/g, "\"vip\":\{\"expire_time\":9876543210,\"vip_type\":3,\"last_product_id\":\"com\.ihuman\.english\.cons\.vip1y\"\}").replace(/"expire_at":\d+/g, "\"expire_at\":9876543210").replace(/"redeemed":\d/g, "\"redeemed\":1") .replace(/coin":\d+/g, "coin\":9999999");
+body = $response.body.replace(/"vip":\{[^}]+\}/g, "\"vip\":\{\"expire_time\":9876543210,\"vip_type\":3,\"last_product_id\":\"com\.ihuman\.english\.cons\.vip1y\"\}").replace(/"expire_at":\d+/g, "\"expire_at\":9876543210").replace(/"redeemed":\d/g, "\"redeemed\":1").replace(/coin":\d+/g, "coin\":9999999");
 }
 
 $done({body});
