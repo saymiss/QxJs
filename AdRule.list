@@ -4369,7 +4369,7 @@ DOMAIN-SUFFIX,jsnywl.kfi8.com,REJECT
 DOMAIN-SUFFIX,json.gewuwen.com,REJECT
 DOMAIN-SUFFIX,jspg.cc,REJECT
 DOMAIN-SUFFIX,jsqmt.qq.com,REJECT
-DOMAIN-SUFFIX,jssd.uumeitu.com,REJECT
+DOMAIN-SUFFIX,j.uumeitu.com,REJECT
 DOMAIN-SUFFIX,jt.yunxiufang.net,REJECT
 DOMAIN-SUFFIX,jtug.code.poyang.com,REJECT
 DOMAIN-SUFFIX,jtxh.net,REJECT
@@ -6857,7 +6857,7 @@ DOMAIN-SUFFIX,tdcv3.talkingdata.net,REJECT
 DOMAIN-SUFFIX,t-e.flyme.cn,REJECT
 DOMAIN-SUFFIX,teen.77rog.com,REJECT
 DOMAIN-SUFFIX,telstra.imrworldwide.com,REJECT
-DOMAIN-SUFFIX,temai.snssdk.com,REJECT
+#DOMAIN-SUFFIX,temai.snssdk.com,REJECT
 DOMAIN-SUFFIX,temai.taobao.com,REJECT
 DOMAIN-SUFFIX,temp.163.com,REJECT
 DOMAIN-SUFFIX,tencentmind.com,REJECT
