@@ -198,11 +198,11 @@ DOMAIN,adx-api.hupu.com,REJECT
 DOMAIN,goblin.hupu.com,REJECT
 # (I)
 # > iQiyi
-DOMAIN,t7z.cupid.iqiyi.com,REJECT
-IP-CIDR,101.227.97.240/32,REJECT,no-resolve
-IP-CIDR,101.227.200.11/32,REJECT,no-resolve
-IP-CIDR,101.227.200.28/32,REJECT,no-resolve
-IP-CIDR,124.192.153.42/32,REJECT,no-resolve
+#DOMAIN,t7z.cupid.iqiyi.com,REJECT
+#IP-CIDR,101.227.97.240/32,REJECT,no-resolve
+#IP-CIDR,101.227.200.11/32,REJECT,no-resolve
+#IP-CIDR,101.227.200.28/32,REJECT,no-resolve
+#IP-CIDR,124.192.153.42/32,REJECT,no-resolve
 # > Ifeng
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN,api.newad.ifeng.com,REJECT
@@ -298,7 +298,8 @@ DOMAIN,track.sohu.com,REJECT
 DOMAIN,hui.sohu.com,REJECT
 # (T)
 # > Tencent
-#DOMAIN-SUFFIX,e.qq.com,REJECT
+#DOMAIN-SUFFIX,e.
+.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
