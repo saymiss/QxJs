@@ -82,7 +82,8 @@ http-request https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? script-
 
 const jsname = "企鹅读书";
 const $ = Env(jsname);
-$.idx = ($.idx = ($.getval("qeSuffix") || "1") - 1) > 0 ? `${$.idx + 1}` : ""; // 账号扩展字符
+$.idx = $.getval("qeSuffix") || "1"
+//$.idx = ($.idx = ($.getval("qeSuffix") || "1") - 1) > 0 ? `${$.idx + 1}` : ""; // 账号扩展字符
 const notify = $.isNode() ? require("./sendNotify") : "";
 
 let tz = "";
@@ -177,15 +178,15 @@ if ($.isNode()) {
     }
   });
 } else {
-  qqreadbdArr.push($.getdata("qqreadbd1"));
-  qqreadtimeurlArr.push($.getdata("qqreadtimeurl1"));
-  qqreadtimehdArr.push($.getdata("qqreadtimehd1"));
+  //qqreadbdArr.push($.getdata("qqreadbd1"));
+  //qqreadtimeurlArr.push($.getdata("qqreadtimeurl1"));
+  //qqreadtimehdArr.push($.getdata("qqreadtimehd1"));
   // 根据boxjs中设置的额外账号数，添加存在的账号数据进行任务处理
   if ("qeCASH") {
     CASH = $.getval("qeCASH");
   } else CASH = 0;
-  const qeCount = ($.getval("qeCount") || "1") - 0;
-  for (let i = 2; i <= qeCount; i++) {
+  const qeCount = $.getval("qeCount") || "1";
+  for (let i = 1; i <= qeCount; i++) {
     if ($.getdata(`qqreadbd${i}`)) {
       qqreadbdArr.push($.getdata(`qqreadbd${i}`));
       qqreadtimeurlArr.push($.getdata(`qqreadtimeurl${i}`));
