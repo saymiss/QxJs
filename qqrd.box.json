@@ -1,0 +1,38 @@
+{
+  "id": "ziye.app.sub",
+  "name": "qqrd自用订阅",
+  "author": "@ZIYE",
+  "icon": "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.jpg",
+  "repo": "https://github.com/ziye12/JavaScript",
+  "apps": [{
+    "id": "qqread",
+    "name": "企鹅读书",
+    "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3", "qqreadbd4", "qqreadtimeurl4", "qqreadtimehd4", "qqreadbd5", "qqreadtimeurl5","qqreadtimehd5", "qqreadbd6", "qqreadtimeurl6", "qqreadtimehd6", "qqreadbd7", "qqreadtimeurl7", "qqreadtimehd7", "qqreadbd8", "qqreadtimeurl8", "qqreadtimehd8","qqreadbd9", "qqreadtimeurl9", "qqreadtimehd9","qqreadbd10", "qqreadtimeurl10", "qqreadtimehd10"],
+    "author": "@ziye",
+    "settings": [{
+        "id": "qeSuffix",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+      },
+      {
+        "id": "qeCount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+      },
+      {
+        "id": "qeCASH",
+        "name": "提现标准",
+        "val": "0",
+        "type": "number",
+        "desc": "可设置0 1 2 10 30 50 100  设置0关闭，根据需要来设值"
+      }
+    ],
+    "repo": "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.js",
+    "icons": ["https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.jpg", "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.jpg"],
+    "script": "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.js"
+  }]
+}
