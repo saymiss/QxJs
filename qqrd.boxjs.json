@@ -3,10 +3,10 @@
   "name": "qqrd自用订阅",
   "author": "@ZIYE",
   "icon": "",
-  "repo": "https://github.com/ziye12/JavaScript",
+  "repo": "https://github.com/panxsn/QxJs",
   "apps": [{
-    "id": "qqread",
-    "name": "企鹅读书",
+    "id": "qqrd",
+    "name": "qq读书",
     "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3", "qqreadbd4", "qqreadtimeurl4", "qqreadtimehd4", "qqreadbd5", "qqreadtimeurl5","qqreadtimehd5", "qqreadbd6", "qqreadtimeurl6", "qqreadtimehd6", "qqreadbd7", "qqreadtimeurl7", "qqreadtimehd7", "qqreadbd8", "qqreadtimeurl8", "qqreadtimehd8","qqreadbd9", "qqreadtimeurl9", "qqreadtimehd9","qqreadbd10", "qqreadtimeurl10", "qqreadtimehd10"],
     "author": "@ziye",
     "settings": [{
@@ -31,8 +31,8 @@
         "desc": "可设置0 1 2 10 30 50 100  设置0关闭，根据需要来设值"
       }
     ],
-    "repo": "https://github.com/ziye12/JavaScript/blob/master/Task/QQread.js",
+    "repo": "https://github.com/panxsn/QxJs/blob/master/qqrd.js",
     "icons": ["https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.jpg", "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.jpg"],
-    "script": "https://raw.githubusercontent.com/ziye12/JavaScript/master/Task/QQread.js"
+    "script": "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrd.js"
   }]
 }
