@@ -176,15 +176,15 @@ if (!COOKIE.qqreadbodyVal) {
       }
     });
   } else {
-    qqreadbdArr.push($.getdata("qqreadbd1"));
-    qqreadtimeurlArr.push($.getdata("qqreadtimeurl1"));
-    qqreadtimehdArr.push($.getdata("qqreadtimehd1"));
+    //qqreadbdArr.push($.getdata("qqreadbd1"));
+    //qqreadtimeurlArr.push($.getdata("qqreadtimeurl1"));
+    //qqreadtimehdArr.push($.getdata("qqreadtimehd1"));
     // 根据boxjs中设置的额外账号数，添加存在的账号数据进行任务处理
     if ("qeCASH") {
       CASH = $.getval("qeCASH");
     }
     const qeCount = ($.getval("qeCount") || "1") - 0;
-    for (let i = 2; i <= qeCount; i++) {
+    for (let i = 1; i <= qeCount; i++) {
       if ($.getdata(`qqreadbd${i}`)) {
         qqreadbdArr.push($.getdata(`qqreadbd${i}`));
         qqreadtimeurlArr.push($.getdata(`qqreadtimeurl${i}`));
