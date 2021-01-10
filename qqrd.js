@@ -212,8 +212,8 @@ if ((isGetCookie = typeof $request !== "undefined")) {
 
 function GetCookie() {
   if (
-      $request && $request.url.indexOf("addReadTimeWithBid?") >= 0 && 
-      $request.url.indexOf("book-category") >= 0
+      $request && $request.url.indexOf("addReadTimeWithBid?") >= 0
+   // && $request.url.indexOf("book-category") >= 0
     ) {
     const qqreadtimeurlVal = $request.url;
     if (qqreadtimeurlVal) $.setdata(qqreadtimeurlVal, `qqreadtimeurl${$.idx}`);
@@ -234,7 +234,7 @@ function GetCookie() {
     $.msg(jsname + $.idx, `获取时长header: 成功🎉`, ``);
   } else if (
     $request &&
-    $request.body.indexOf("bookDetail_bottomBar_read_C") >= 0 &&
+    //$request.body.indexOf("bookDetail_bottomBar_read_C") >= 0 &&
     $request.body.indexOf("bookLib2_bookList_bookClick_C") >= 0 &&
     $request.body.indexOf("bookRead_show_I") >= 0 &&
     $request.body.indexOf("topBar_left_back_C") < 0 &&
