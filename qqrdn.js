@@ -234,7 +234,7 @@ function GetCookie() {
 }
 
 console.log(
-  `================== 脚本执行 - 北京时间(UTC+8)：${new Date(
+  `脚本执行 - 北京时间(UTC+8)：${new Date(
     new Date().getTime() +
     new Date().getTimezoneOffset() * 60 * 1000 +
     8 * 60 * 60 * 1000
@@ -242,10 +242,10 @@ console.log(
 );
 
 console.log(
-  `============ 共 ${Length} 个${jsname}账号=============\n`
+  `========== 共 ${Length} 个${jsname}账号==========\n`
 );
 
-console.log(`============ 提现标准为：${CASH} =============\n`);
+console.log(`========== 提现标准为：${CASH} ==============\n`);
 
 
 !(async () => {
