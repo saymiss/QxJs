@@ -233,8 +233,6 @@ function GetCookie() {
   }
 }
 
-console.log('脚本执行:\n');
-
 console.log(
   `北京时间(UTC+8)：${new Date(
     new Date().getTime() +
@@ -286,7 +284,7 @@ async function all() {
       qqreadtimeheaderVal = qqreadtimehdArr[i];
 
     }
-    O = (`${jsname + (i + 1)}🔔`);
+    O = (`${jsname + (i + 1)}🔔\n`);
     tz = '';
     kz = '';
     let cookie_is_live = await qqreadinfo(i + 1);//用户名
