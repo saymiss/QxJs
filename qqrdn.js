@@ -284,7 +284,7 @@ async function all() {
       qqreadtimeheaderVal = qqreadtimehdArr[i];
 
     }
-    O = (`${jsname + (i + 1)}🔔\n`);
+    O = (`${jsname + (i + 1)}🔔`);
     tz = '';
     kz = '';
     let cookie_is_live = await qqreadinfo(i + 1);//用户名
