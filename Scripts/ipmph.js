@@ -1,9 +1,9 @@
 /*
-unlock paid ebook by panxsn
+unlock paid ebook by saymiss
 
 [rewrite_local]
 # 人卫临床助手-解锁付费电子书
-^https:\/\/ccdas\.ipmph\.com\/App\/Pmph\/AppEbookDetail url script-response-body panxsn/ipmph.js
+^https:\/\/ccdas\.ipmph\.com\/App\/Pmph\/AppEbookDetail url script-response-body saymiss/ipmph.js
 
 [mitm]  
 ccdas.ipmph.com
