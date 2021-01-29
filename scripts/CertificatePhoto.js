@@ -1,10 +1,10 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 下载地址：http://mrw.so/4YgQbP
 
 [rewrite_local]
 # 智能证件照相机
-^http:\/\/certificate\.yiyongcad\.com\/api\/v4\/(virtualactregister|memprofile) url script-response-body panxsn/CertificatePhoto.js
+^http:\/\/certificate\.yiyongcad\.com\/api\/v4\/(virtualactregister|memprofile) url script-response-body saymiss/CertificatePhoto.js
 
 MITM = certificate.yiyongcad.com
 */
