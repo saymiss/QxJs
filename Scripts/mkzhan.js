@@ -1,9 +1,9 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 [rewrite_local]
 # 漫客栈-旧版v2.4.6可用
-^https:\/\/member\.mkzcdn\.com\/user\/funds\/info url script-response-body panxsn/mkzhan.js
+^https:\/\/member\.mkzcdn\.com\/user\/funds\/info url script-response-body saymiss/mkzhan.js
 
 [mitm]
 member.mkzcdn.com
