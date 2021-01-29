@@ -1,9 +1,9 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 [rewrite_local]
 # 魔力相册
-^https:\/\/n\.molixiangce\.com\/index\/newapi\/(getUserData|getMemberData) url script-response-body panxsn/molixiangce.js
+^https:\/\/n\.molixiangce\.com\/index\/newapi\/(getUserData|getMemberData) url script-response-body saymiss/molixiangce.js
 
 [mitm]
 n.molixiangce.com
