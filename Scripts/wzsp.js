@@ -1,11 +1,11 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 链接：http://t.cn/AiN0mk0G
 
 [rewrite_local]
 # 文字视频（开启规则后需重新微信登录）
-^https:\/\/a\.aipike\.net\/api\/v1\/oauth\/WECHAT url script-response-body panxsn/wzsp.js
+^https:\/\/a\.aipike\.net\/api\/v1\/oauth\/WECHAT url script-response-body saymiss/wzsp.js
 
 [mitm]  
 a.aipike.net
