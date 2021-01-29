@@ -3,7 +3,7 @@
   "name": "qqrd自用订阅",
   "author": "@ZIYE",
   "icon": "https://avatars0.githubusercontent.com/u/48349168?s=60&v=4",
-  "repo": "https://github.com/panxsn/QxJs",
+  "repo": "https://github.com/saymiss/QxJs",
   "apps": [{
     "id": "qqrd",
     "name": "qq读书",
@@ -31,8 +31,8 @@
         "desc": "可设置0 1 2 10 30 50 100  设置0关闭，根据需要来设值"
       }
     ],
-    "repo": "https://github.com/panxsn/QxJs/blob/master/qqrdn.js",
-    "icons": ["https://raw.githubusercontent.com/panxsn/QxJs/master/qqread.png", "https://raw.githubusercontent.com/panxsn/QxJs/master/qqread.png"],
-    "script": "https://raw.githubusercontent.com/panxsn/QxJs/master/qqrdn.js"
+    "repo": "https://github.com/saymiss/QxJs/blob/master/Scripts/qqrdn.js",
+    "icons": ["https://raw.githubusercontent.com/saymiss/QxJs/master/qqread.png", "https://raw.githubusercontent.com/saymiss/QxJs/master/qqread.png"],
+    "script": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/qqrdn.js"
   }]
 }
