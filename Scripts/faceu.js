@@ -1,9 +1,9 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 [rewrite_local]
 # 轻颜相机
-^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-response-body panxsn/faceu.js
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-response-body saymiss/faceu.js
 
 [mitm]
 commerce-api.faceu.mobi
