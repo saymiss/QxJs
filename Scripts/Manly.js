@@ -1,8 +1,8 @@
 /*
-unlock In-app purchase by panxsn
+unlock In-app purchase by saymiss
 
 # 卖力批图 (拷贝此段到本地，用完后禁用)
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body panxsn/Manly.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body saymiss/Manly.js
 
 buy.itunes.apple.com
 */
