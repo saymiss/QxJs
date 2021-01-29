@@ -1,9 +1,9 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 [rewrite_local]
 # 百度云（自用）
-^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body panxsn/BaiduYun.js
+^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body saymiss/BaiduYun.js
 
 [mitm]
 pan.baidu.com
