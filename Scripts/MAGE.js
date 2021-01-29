@@ -1,5 +1,5 @@
 /*
-unlock In-app purchase by panxsn
+unlock In-app purchase by saymiss
 
 链接：http://mrw.so/4nUG9b
 版本：Appstore v3.1
@@ -7,7 +7,7 @@ unlock In-app purchase by panxsn
 [rewrite_local]
 # MAGE-魔法特效相机
 # 拷贝此段到本地，用完后禁用
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body panxsn/MAGE.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body saymiss/MAGE.js
 
 [mitm]  
 buy.itunes.apple.com
