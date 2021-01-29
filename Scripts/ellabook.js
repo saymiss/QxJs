@@ -1,9 +1,9 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 [rewrite_local]
 # 咿啦看书
-^https:\/\/api\.ellabook\.cn\/rest\/api\/service url script-response-body panxsn/ellabook.js
+^https:\/\/api\.ellabook\.cn\/rest\/api\/service url script-response-body saymiss/ellabook.js
 
 [mitm]  
 api.ellabook.cn
