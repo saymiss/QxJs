@@ -1,11 +1,11 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 链接：https://v.dzdv.cn/app/
 
 [rewrite_local]
 # 云梦影视
-^https:\/\/v\.dzdv\.cn\/\/api\.php\/provide\/app\/\?ac=login url script-response-body panxsn/ymys.js
+^https:\/\/v\.dzdv\.cn\/\/api\.php\/provide\/app\/\?ac=login url script-response-body saymiss/ymys.js
 
 [mitm]
 v.dzdv.cn
