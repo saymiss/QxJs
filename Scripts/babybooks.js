@@ -1,12 +1,12 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 链接：http://mrw.so/4sSX6U
 版本：Appstore v1.2.1
 
 [rewrite_local]
 # 儿童睡前故事
-^https:\/\/www\.babybooks\.top\/v0\/(series|profile) url script-response-body panxsn/babybooks.js
+^https:\/\/www\.babybooks\.top\/v0\/(series|profile) url script-response-body saymiss/babybooks.js
 
 [mitm]
 www.babybooks.top
