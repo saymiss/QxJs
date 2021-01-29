@@ -1,5 +1,5 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 链接：
 ①清爽视频编辑器：http://mrw.so/5l3Q2L
@@ -11,7 +11,7 @@ unlock vip by panxsn
 
 [rewrite_local]
 # 迅捷系列(清爽视频编辑器、文字识别、PDF转换器、论文查重、文字转语音助手、录音转文字助手)
-^https:\/\/app\.xunjiepdf\.com\/api\/v4\/(memprofile|virtualactregister) url script-response-body panxsn/xunjie.js
+^https:\/\/app\.xunjiepdf\.com\/api\/v4\/(memprofile|virtualactregister) url script-response-body saymiss/xunjie.js
 
 [mitm]
 app.xunjiepdf.com
