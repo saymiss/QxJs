@@ -1,9 +1,9 @@
 /*
-unlock vip by panxsn
+unlock vip by saymiss
 
 [rewrite_local]
 # 指尖特效
-^https:\/\/www\.jidiandian\.cn\/finevideo-account\/api\/user\/detail url script-response-body panxsn/zjtx.js
+^https:\/\/www\.jidiandian\.cn\/finevideo-account\/api\/user\/detail url script-response-body saymiss/zjtx.js
 
 [mitm]  
 www.jidiandian.cn
