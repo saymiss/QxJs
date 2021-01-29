@@ -1,9 +1,9 @@
 /*
-unlock In-app purchase by panxsn
+unlock In-app purchase by saymiss
 
 [rewrite_local]
 # NOMO v1.5.28 （旧版）
-^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list url script-response-body panxsn/NOMO.js
+^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list url script-response-body saymiss/NOMO.js
 
 [mitm]  
 nomo.dafork.com
