@@ -6,8 +6,8 @@
   "icon": "https://avatars0.githubusercontent.com/u/48349168?s=60&v=4",
   "repo": "https://github.com/NobyDa/Script/tree/master",
   "apps": [{
-    "id": "多合一签到",
-    "name": "京东",
+    "id": "多合一签到2",
+    "name": "京东2",
     "keys": ["CookieJD3", "CookieJD4"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js\">脚本注释</a></h4>",
