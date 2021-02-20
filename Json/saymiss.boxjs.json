@@ -6,9 +6,9 @@
   "icon": "https://avatars0.githubusercontent.com/u/48349168?s=60&v=4",
   "repo": "https://github.com/NobyDa/Script/tree/master",
   "apps": [{
-    "id": "多合一签到2",
-    "name": "京东2",
-    "keys": ["CookieJD3", "CookiesJD4"],
+    "id": "多合一签到",
+    "name": "京东",
+    "keys": ["CookieJD3", "CookieJD4"],
     "descs_html": [
       "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js\">脚本注释</a></h4>",
       "<br />",
@@ -55,9 +55,6 @@
         "key": "JDWebcasts",
         "label": "京东直播"
       }, {
-        "key": "JRBean",
-        "label": "金融金贴"
-      }, {
         "key": "JRDoll",
         "label": "金融签壹"
       }, {
@@ -100,17 +97,11 @@
         "key": "JDSuitcase",
         "label": "京东箱包"
       }, {
-        "key": "JDUnderwear",
-        "label": "京东内衣"
-      }, {
         "key": "JDChild",
         "label": "京东童装"
       }, {
         "key": "JDBaby",
         "label": "京东母婴"
-      }, {
-        "key": "JDFineWine",
-        "label": "京东酒饮"
       }, {
         "key": "JDCash",
         "label": "京东红包"
@@ -143,19 +134,19 @@
         "label": "金贴双签"
       }, {
         "key": "JDMakeup",
-        "label": "京东美妆 (如VPN重启,建议禁用)"
+        "label": "京东美妆"
       }, {
         "key": "JDVege",
-        "label": "京东菜场 (如VPN重启,建议禁用)"
+        "label": "京东菜场"
       }, {
         "key": "JDClean",
-        "label": "京东清洁 (如VPN重启,建议禁用)"
+        "label": "京东清洁"
       }, {
         "key": "JDCare",
-        "label": "京东个护 (如VPN重启,建议禁用)"
+        "label": "京东个护"
       }, {
         "key": "JDJewels",
-        "label": "京东珠宝 (如VPN重启,建议禁用)"
+        "label": "京东珠宝"
       }, {
         "key": "JDCube",
         "label": "京东魔方"
@@ -203,7 +194,7 @@
       "val": "",
       "type": "number",
       "placeholder": "默认并发无延迟 (点击以展开说明)",
-      "desc": "延迟作用于每个签到接口, 如填入延迟则切换顺序签到(耗时较长), VPN重启或越狱用户建议填写1, Surge用户请注意在SurgeUI界面调整脚本超时"
+      "desc": "延迟作用于每个签到接口, 该参数接受随机或指定延迟(例: '2000'则表示延迟2秒; '2000-5000'则表示延迟最小2秒,最大5秒内的随机延迟), 如填入延迟则切换顺序签到(耗时较长); VPN重启或越狱用户建议填写1(顺序执行), Surge用户请注意在SurgeUI界面调整脚本超时."
     }],
     "scripts": [{
       "name": "京东签到",
@@ -215,11 +206,6 @@
     "author": "@NobyDa",
     "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
     "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
-  }],
-  "task": [{
-    "config": "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
-    "addons": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=NobyDa Cookie获取"
-  }]
   },
 	{
 		"id": "flw",
