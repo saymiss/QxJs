@@ -219,6 +219,7 @@
   "task": [{
     "config": "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
     "addons": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=NobyDa Cookie获取"
+  }]
   },
 	{
 		"id": "flw",
@@ -258,5 +259,5 @@
 		"icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.png"],
 		"script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js"
 	}
-  ]
+]
 }
