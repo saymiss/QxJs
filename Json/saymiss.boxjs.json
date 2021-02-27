@@ -210,7 +210,7 @@
 	{
 		"id": "flw2",
 		"name": "返利网2",
-		"keys": ["flwurl", "flwheader", "flwspbody", "flwqwbody", "flwydbody", "flwurl2", "flwheader2", "flwspbody2", "flwqwbody2", "flwydbody2", "flwurl3", "flwheader3", "flwspbody3", "flwqwbody3", "flwydbody3", "flwurl4", "flwheader4", "flwspbody4", "flwqwbody4", "flwydbody4", "flwurl5", "flwheader5", "flwspbody5", "flwqwbody5", "flwydbody5"],
+		"keys": ["flwurl", "flwheader", "flwspbody", "flwqwbody", "flwydbody", "flwurl2", "flwheader2", "flwspbody2", "flwqwbody2", "flwydbody2"],
 		"author": "@ziye",
 		"settings": [{
 				"id": "flwSuffix",
@@ -240,7 +240,10 @@
 				"type": "number",
 				"desc": "默认0，可设置设置 0 5 50 100"
 			}
-		]
+		],
+		"repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js",
+		"icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.png"],
+		"script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js"
 	}
 ]
 }
