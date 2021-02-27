@@ -240,10 +240,7 @@
 				"type": "number",
 				"desc": "默认0，可设置设置 0 5 50 100"
 			}
-		],
-		"repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js",
-		"icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.png"],
-		
+		]
 	}
 ]
 }
