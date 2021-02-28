@@ -204,10 +204,10 @@ if (!COOKIE.flwurlVal) {
     flwydbodyArr.push($.getdata("flwydbody"));	
     // 根据boxjs中设置的额外账号数，添加存在的账号数据进行任务处理
     if ("flwCASH") {
-      CASH = $.getval("flwCASH") || '0';
+      CASH = $.getval("flwCASH") || '0.5';
     }
     if ("flwDHCASH") {
-      DHCASH = $.getval("flwDHCASH") || '0';
+      DHCASH = $.getval("flwDHCASH") || '5';
     }
     let flwCount = ($.getval('flwCount') || '1') - 0;
     for (let i = 2; i <= flwCount; i++) {
