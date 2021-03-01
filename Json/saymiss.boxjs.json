@@ -239,8 +239,7 @@
 				"val": "5",
 				"type": "number",
 				"desc": "默认0，可设置设置 0 5 50 100"
-			}
-		],
+			}],
 		"repo": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/flw.js",
 		"icons": ["https://raw.githubusercontent.com/saymiss/QxJs/master/flw.png", "https://raw.githubusercontent.com/saymiss/QxJs/master/flw.png"],
 		"script": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/flw.js "
