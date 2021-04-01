@@ -1,8 +1,8 @@
 /* ziye 
-github地址 https://github.com/6Svip120apk69
+github地址 https://github.com/ziye888
 TG频道地址  https://t.me/ziyescript
 TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-boxjs链接  https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/ziye.boxjs.json
+boxjs链接  https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/ziye.boxjs.json
 转载请备注个名字，谢谢
 
 ⚠️返利网
@@ -27,7 +27,7 @@ boxjs链接  https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThx
 
 ⚠️一共5个位置 5个ck  👉 6条 Secrets 
 多账号换行
-第一步 添加  hostname=huodong.fanli.com,passport.fanli.com,gw.fanli.com,
+第一步 添加  hostname=*.fanli.com,
 
 第二步 添加重写 
 
@@ -55,26 +55,26 @@ flwydbodyVal 👉FL_flwydBODY
 
 
 ⚠️主机名以及重写👇
-hostname=huodong.fanli.com,passport.fanli.com,gw.fanli.com,
+hostname=*.fanli.com,
 
 ############## 圈x
 #返利网获取header
-https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-header https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js   
+https:\/\/.+\.fanli\.com\/* url script-request-header https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js   
 #返利网获取body
-https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-body https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js   
+https:\/\/.+\.fanli\.com\/* url script-request-body https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js   
 
 ############## loon
 #返利网获取header
-http-request https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) script-path=https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js, requires-header=true, tag=返利网获取header
+http-request https:\/\/.+\.fanli\.com\/* script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js, requires-header=true, tag=返利网获取header
 
-http-request https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) script-path=https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js,requires-body=1,max-size=0, tag=返利网获取body
+http-request https:\/\/.+\.fanli\.com\/* script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js,requires-body=1,max-size=0, tag=返利网获取body
 
 ############## surge
 #返利网获取header
-返利网获取header = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),script-path=https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js
+返利网获取header = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js
 
 #返利网获取body
-返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/flw.js
+返利网获取body = type=http-request,pattern=https:\/\/.+\.fanli\.com\/*,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/flw.js
 
 
 
