@@ -608,7 +608,7 @@ async function all() {
         await flwzh(); //签到账户
         if (DHCASH >= 5) {
             await DHlist(); //兑换目录
-            if (nowTimes.getHours() === 10 && $.flwzh.data && $.flwzh.data.ex_to_cash >= DHCASH && wu && wu.stock >= 5) {
+            if ((nowTimes.getHours() === 10 || nowTimes.getHours() === 11) && $.flwzh.data && $.flwzh.data.ex_to_cash >= DHCASH && wu && wu.stock >= 5) {
                 if (DHCASH == 5) {
                     dhdh = wu.id
                 } else if (DHCASH == 50) {
