@@ -41,34 +41,6 @@
 		"repo": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/flw.js",
 		"icons": ["https://raw.githubusercontent.com/saymiss/QxJs/master/flw.png", "https://raw.githubusercontent.com/saymiss/QxJs/master/flw.png"],
 		"script": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/flw.js "
-	},
-
-{
-		"id": "JXHLK",
-		"name": "惊喜欢乐砍",
-		"keys": [],
-		"author": "@saymiss",
-		"settings": [{
-				"id": "first",
-				"name": "初次参加",
-				"val": "first",
-				"type": "boolean",
-				"desc": "第一次参加变量设置为true查看商品ID 填写商品ID后自动获取邀请码邀请  如果只助力 变量设置为false"
-			},
-			{
-				"id": "launchid",
-				"name": "邀请码",
-				"val": "",
-				"type": "text",
-				"desc": "邀请码"
-			},
-			{
-				"id": "active",
-				"name": "商品ID",
-				"val": "",
-				"type": "text",
-				"desc": "商品ID"
-			}]	
 	}
 ]
 }
