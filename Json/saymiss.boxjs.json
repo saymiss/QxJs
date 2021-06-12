@@ -41,6 +41,14 @@
 		"repo": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/flw.js",
 		"icons": ["https://raw.githubusercontent.com/saymiss/QxJs/master/flw.png", "https://raw.githubusercontent.com/saymiss/QxJs/master/flw.png"],
 		"script": "https://raw.githubusercontent.com/saymiss/QxJs/master/Scripts/flw.js "
+	},
+
+{
+		"id": "JXHLK",
+		"name": "惊喜欢乐砍",
+		"keys": ["first", "launchid"],
+		"author": "@saymiss",
 	}
+
 ]
 }
